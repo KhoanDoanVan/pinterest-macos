@@ -13,5 +13,7 @@ struct Pinterest_macOSApp: App {
         WindowGroup {
             ContentView()
         }
+        /// hiding title bar
+        .windowStyle(HiddenTitleBarWindowStyle())
     }
 }
