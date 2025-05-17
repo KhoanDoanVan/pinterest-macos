@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		462BA6842DD7468A00A34E40 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 462BA6832DD7468A00A34E40 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		46A221ED2DD4F86D00FF163A /* Pinterest-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinterest-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462BA6842DD7468A00A34E40 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Pinterest-macOS";
 			packageProductDependencies = (
+				462BA6832DD7468A00A34E40 /* SDWebImageSwiftUI */,
 			);
 			productName = "Pinterest-macOS";
 			productReference = 46A221ED2DD4F86D00FF163A /* Pinterest-macOS.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 46A221E42DD4F86D00FF163A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				462BA6822DD7468A00A34E40 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 46A221EE2DD4F86D00FF163A /* Products */;
 			projectDirPath = "";
@@ -319,6 +328,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		462BA6822DD7468A00A34E40 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		462BA6832DD7468A00A34E40 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 462BA6822DD7468A00A34E40 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 46A221E52DD4F86D00FF163A /* Project object */;
 }
